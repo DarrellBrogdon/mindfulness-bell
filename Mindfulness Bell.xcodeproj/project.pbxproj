@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED44B93A1C2E74710086A0D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B9391C2E74710086A0D5 /* AppDelegate.swift */; };
+		ED44B93C1C2E74710086A0D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B93B1C2E74710086A0D5 /* ViewController.swift */; };
+		ED44B93F1C2E74710086A0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED44B93D1C2E74710086A0D5 /* Main.storyboard */; };
+		ED44B9421C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED44B9401C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodeld */; };
+		ED44B9441C2E74710086A0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED44B9431C2E74710086A0D5 /* Assets.xcassets */; };
+		ED44B9471C2E74710086A0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED44B9451C2E74710086A0D5 /* LaunchScreen.storyboard */; };
+		ED44B9521C2E74710086A0D5 /* Mindfulness_BellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B9511C2E74710086A0D5 /* Mindfulness_BellTests.swift */; };
+		ED44B95D1C2E74710086A0D5 /* Mindfulness_BellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B95C1C2E74710086A0D5 /* Mindfulness_BellUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED44B94E1C2E74710086A0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED44B92E1C2E74710086A0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED44B9351C2E74710086A0D5;
+			remoteInfo = "Mindfulness Bell";
+		};
+		ED44B9591C2E74710086A0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED44B92E1C2E74710086A0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED44B9351C2E74710086A0D5;
+			remoteInfo = "Mindfulness Bell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED44B9361C2E74710086A0D5 /* Mindfulness Bell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindfulness Bell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED44B9391C2E74710086A0D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED44B93B1C2E74710086A0D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED44B93E1C2E74710086A0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED44B9411C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mindfulness_Bell.xcdatamodel; sourceTree = "<group>"; };
+		ED44B9431C2E74710086A0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED44B9461C2E74710086A0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED44B9481C2E74710086A0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED44B94D1C2E74710086A0D5 /* Mindfulness BellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindfulness BellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED44B9511C2E74710086A0D5 /* Mindfulness_BellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mindfulness_BellTests.swift; sourceTree = "<group>"; };
+		ED44B9531C2E74710086A0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED44B9581C2E74710086A0D5 /* Mindfulness BellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindfulness BellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED44B95C1C2E74710086A0D5 /* Mindfulness_BellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mindfulness_BellUITests.swift; sourceTree = "<group>"; };
+		ED44B95E1C2E74710086A0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED44B9331C2E74710086A0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED44B94A1C2E74710086A0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED44B9551C2E74710086A0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED44B92D1C2E74710086A0D5 = {
+			isa = PBXGroup;
+			children = (
+				ED44B9381C2E74710086A0D5 /* Mindfulness Bell */,
+				ED44B9501C2E74710086A0D5 /* Mindfulness BellTests */,
+				ED44B95B1C2E74710086A0D5 /* Mindfulness BellUITests */,
+				ED44B9371C2E74710086A0D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED44B9371C2E74710086A0D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED44B9361C2E74710086A0D5 /* Mindfulness Bell.app */,
+				ED44B94D1C2E74710086A0D5 /* Mindfulness BellTests.xctest */,
+				ED44B9581C2E74710086A0D5 /* Mindfulness BellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED44B9381C2E74710086A0D5 /* Mindfulness Bell */ = {
+			isa = PBXGroup;
+			children = (
+				ED44B9391C2E74710086A0D5 /* AppDelegate.swift */,
+				ED44B93B1C2E74710086A0D5 /* ViewController.swift */,
+				ED44B93D1C2E74710086A0D5 /* Main.storyboard */,
+				ED44B9431C2E74710086A0D5 /* Assets.xcassets */,
+				ED44B9451C2E74710086A0D5 /* LaunchScreen.storyboard */,
+				ED44B9481C2E74710086A0D5 /* Info.plist */,
+				ED44B9401C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodeld */,
+			);
+			path = "Mindfulness Bell";
+			sourceTree = "<group>";
+		};
+		ED44B9501C2E74710086A0D5 /* Mindfulness BellTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED44B9511C2E74710086A0D5 /* Mindfulness_BellTests.swift */,
+				ED44B9531C2E74710086A0D5 /* Info.plist */,
+			);
+			path = "Mindfulness BellTests";
+			sourceTree = "<group>";
+		};
+		ED44B95B1C2E74710086A0D5 /* Mindfulness BellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED44B95C1C2E74710086A0D5 /* Mindfulness_BellUITests.swift */,
+				ED44B95E1C2E74710086A0D5 /* Info.plist */,
+			);
+			path = "Mindfulness BellUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED44B9351C2E74710086A0D5 /* Mindfulness Bell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED44B9611C2E74710086A0D5 /* Build configuration list for PBXNativeTarget "Mindfulness Bell" */;
+			buildPhases = (
+				ED44B9321C2E74710086A0D5 /* Sources */,
+				ED44B9331C2E74710086A0D5 /* Frameworks */,
+				ED44B9341C2E74710086A0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mindfulness Bell";
+			productName = "Mindfulness Bell";
+			productReference = ED44B9361C2E74710086A0D5 /* Mindfulness Bell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED44B94C1C2E74710086A0D5 /* Mindfulness BellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED44B9641C2E74710086A0D5 /* Build configuration list for PBXNativeTarget "Mindfulness BellTests" */;
+			buildPhases = (
+				ED44B9491C2E74710086A0D5 /* Sources */,
+				ED44B94A1C2E74710086A0D5 /* Frameworks */,
+				ED44B94B1C2E74710086A0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED44B94F1C2E74710086A0D5 /* PBXTargetDependency */,
+			);
+			name = "Mindfulness BellTests";
+			productName = "Mindfulness BellTests";
+			productReference = ED44B94D1C2E74710086A0D5 /* Mindfulness BellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED44B9571C2E74710086A0D5 /* Mindfulness BellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED44B9671C2E74710086A0D5 /* Build configuration list for PBXNativeTarget "Mindfulness BellUITests" */;
+			buildPhases = (
+				ED44B9541C2E74710086A0D5 /* Sources */,
+				ED44B9551C2E74710086A0D5 /* Frameworks */,
+				ED44B9561C2E74710086A0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED44B95A1C2E74710086A0D5 /* PBXTargetDependency */,
+			);
+			name = "Mindfulness BellUITests";
+			productName = "Mindfulness BellUITests";
+			productReference = ED44B9581C2E74710086A0D5 /* Mindfulness BellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED44B92E1C2E74710086A0D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Darrell Brogdon";
+				TargetAttributes = {
+					ED44B9351C2E74710086A0D5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ED44B94C1C2E74710086A0D5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ED44B9351C2E74710086A0D5;
+					};
+					ED44B9571C2E74710086A0D5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ED44B9351C2E74710086A0D5;
+					};
+				};
+			};
+			buildConfigurationList = ED44B9311C2E74710086A0D5 /* Build configuration list for PBXProject "Mindfulness Bell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED44B92D1C2E74710086A0D5;
+			productRefGroup = ED44B9371C2E74710086A0D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED44B9351C2E74710086A0D5 /* Mindfulness Bell */,
+				ED44B94C1C2E74710086A0D5 /* Mindfulness BellTests */,
+				ED44B9571C2E74710086A0D5 /* Mindfulness BellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED44B9341C2E74710086A0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED44B9471C2E74710086A0D5 /* LaunchScreen.storyboard in Resources */,
+				ED44B9441C2E74710086A0D5 /* Assets.xcassets in Resources */,
+				ED44B93F1C2E74710086A0D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED44B94B1C2E74710086A0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED44B9561C2E74710086A0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED44B9321C2E74710086A0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED44B93C1C2E74710086A0D5 /* ViewController.swift in Sources */,
+				ED44B9421C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodeld in Sources */,
+				ED44B93A1C2E74710086A0D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED44B9491C2E74710086A0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED44B9521C2E74710086A0D5 /* Mindfulness_BellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED44B9541C2E74710086A0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED44B95D1C2E74710086A0D5 /* Mindfulness_BellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED44B94F1C2E74710086A0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED44B9351C2E74710086A0D5 /* Mindfulness Bell */;
+			targetProxy = ED44B94E1C2E74710086A0D5 /* PBXContainerItemProxy */;
+		};
+		ED44B95A1C2E74710086A0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED44B9351C2E74710086A0D5 /* Mindfulness Bell */;
+			targetProxy = ED44B9591C2E74710086A0D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED44B93D1C2E74710086A0D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED44B93E1C2E74710086A0D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED44B9451C2E74710086A0D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED44B9461C2E74710086A0D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED44B95F1C2E74710086A0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED44B9601C2E74710086A0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED44B9621C2E74710086A0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mindfulness Bell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.brogdon.mindfulnessbell.Mindfulness-Bell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED44B9631C2E74710086A0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mindfulness Bell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.brogdon.mindfulnessbell.Mindfulness-Bell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED44B9651C2E74710086A0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mindfulness BellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.brogdon.mindfulnessbell.Mindfulness-BellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mindfulness Bell.app/Mindfulness Bell";
+			};
+			name = Debug;
+		};
+		ED44B9661C2E74710086A0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mindfulness BellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.brogdon.mindfulnessbell.Mindfulness-BellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mindfulness Bell.app/Mindfulness Bell";
+			};
+			name = Release;
+		};
+		ED44B9681C2E74710086A0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mindfulness BellUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.brogdon.mindfulnessbell.Mindfulness-BellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mindfulness Bell";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ED44B9691C2E74710086A0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mindfulness BellUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.brogdon.mindfulnessbell.Mindfulness-BellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mindfulness Bell";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED44B9311C2E74710086A0D5 /* Build configuration list for PBXProject "Mindfulness Bell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED44B95F1C2E74710086A0D5 /* Debug */,
+				ED44B9601C2E74710086A0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED44B9611C2E74710086A0D5 /* Build configuration list for PBXNativeTarget "Mindfulness Bell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED44B9621C2E74710086A0D5 /* Debug */,
+				ED44B9631C2E74710086A0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED44B9641C2E74710086A0D5 /* Build configuration list for PBXNativeTarget "Mindfulness BellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED44B9651C2E74710086A0D5 /* Debug */,
+				ED44B9661C2E74710086A0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED44B9671C2E74710086A0D5 /* Build configuration list for PBXNativeTarget "Mindfulness BellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED44B9681C2E74710086A0D5 /* Debug */,
+				ED44B9691C2E74710086A0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED44B9401C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED44B9411C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodel */,
+			);
+			currentVersion = ED44B9411C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodel */;
+			path = Mindfulness_Bell.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED44B92E1C2E74710086A0D5 /* Project object */;
+}
