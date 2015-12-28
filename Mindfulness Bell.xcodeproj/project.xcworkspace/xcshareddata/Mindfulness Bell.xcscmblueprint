@@ -1,25 +1,25 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "011a5403-ee91-4535-b319-3dc0ea092e1a",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "011a5403-ee91-4535-b319-3dc0ea092e1a++3392",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
-    "011a5403-ee91-4535-b319-3dc0ea092e1a" : {
+    "011a5403-ee91-4535-b319-3dc0ea092e1a++3392" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "011a5403-ee91-4535-b319-3dc0ea092e1a" : 0
+    "011a5403-ee91-4535-b319-3dc0ea092e1a++3392" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E05354ED-23C1-4E2D-883E-925EF54760F0",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "011a5403-ee91-4535-b319-3dc0ea092e1a" : "Development\/"
+    "011a5403-ee91-4535-b319-3dc0ea092e1a++3392" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Mindfulness Bell",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Mindfulness Bell\/Mindfulness Bell.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Mindfulness Bell.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/svn.monigle.com\/yale",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "011a5403-ee91-4535-b319-3dc0ea092e1a"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "011a5403-ee91-4535-b319-3dc0ea092e1a++3392"
     }
   ]
 }

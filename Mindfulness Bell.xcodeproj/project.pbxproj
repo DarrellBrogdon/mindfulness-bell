@@ -15,6 +15,8 @@
 		ED44B9471C2E74710086A0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED44B9451C2E74710086A0D5 /* LaunchScreen.storyboard */; };
 		ED44B9521C2E74710086A0D5 /* Mindfulness_BellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B9511C2E74710086A0D5 /* Mindfulness_BellTests.swift */; };
 		ED44B95D1C2E74710086A0D5 /* Mindfulness_BellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B95C1C2E74710086A0D5 /* Mindfulness_BellUITests.swift */; };
+		ED44B96C1C3081920086A0D5 /* large.wav in Resources */ = {isa = PBXBuildFile; fileRef = ED44B96A1C3081920086A0D5 /* large.wav */; };
+		ED44B96D1C3081920086A0D5 /* small.wav in Resources */ = {isa = PBXBuildFile; fileRef = ED44B96B1C3081920086A0D5 /* small.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		ED44B9581C2E74710086A0D5 /* Mindfulness BellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindfulness BellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED44B95C1C2E74710086A0D5 /* Mindfulness_BellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mindfulness_BellUITests.swift; sourceTree = "<group>"; };
 		ED44B95E1C2E74710086A0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED44B96A1C3081920086A0D5 /* large.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = large.wav; sourceTree = "<group>"; };
+		ED44B96B1C3081920086A0D5 /* small.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = small.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				ED44B9451C2E74710086A0D5 /* LaunchScreen.storyboard */,
 				ED44B9481C2E74710086A0D5 /* Info.plist */,
 				ED44B9401C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodeld */,
+				ED44B96A1C3081920086A0D5 /* large.wav */,
+				ED44B96B1C3081920086A0D5 /* small.wav */,
 			);
 			path = "Mindfulness Bell";
 			sourceTree = "<group>";
@@ -232,9 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED44B96C1C3081920086A0D5 /* large.wav in Resources */,
 				ED44B9471C2E74710086A0D5 /* LaunchScreen.storyboard in Resources */,
 				ED44B9441C2E74710086A0D5 /* Assets.xcassets in Resources */,
 				ED44B93F1C2E74710086A0D5 /* Main.storyboard in Resources */,
+				ED44B96D1C3081920086A0D5 /* small.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +413,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mindfulness Bell/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.brogdon.mindfulnessbell.Mindfulness-Bell";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.brogdon.Mindfulness-Bell";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -416,7 +424,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mindfulness Bell/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.brogdon.mindfulnessbell.Mindfulness-Bell";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.brogdon.Mindfulness-Bell";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
