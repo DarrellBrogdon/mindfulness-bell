@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED119B791C3246DD0010E83B /* meditation_bell.png in Resources */ = {isa = PBXBuildFile; fileRef = ED119B781C3246DD0010E83B /* meditation_bell.png */; };
 		ED44B93A1C2E74710086A0D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B9391C2E74710086A0D5 /* AppDelegate.swift */; };
 		ED44B93C1C2E74710086A0D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B93B1C2E74710086A0D5 /* ViewController.swift */; };
 		ED44B93F1C2E74710086A0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED44B93D1C2E74710086A0D5 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED119B781C3246DD0010E83B /* meditation_bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meditation_bell.png; sourceTree = "<group>"; };
 		ED44B9361C2E74710086A0D5 /* Mindfulness Bell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindfulness Bell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED44B9391C2E74710086A0D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED44B93B1C2E74710086A0D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				ED44B9401C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodeld */,
 				ED44B96A1C3081920086A0D5 /* large.wav */,
 				ED44B96B1C3081920086A0D5 /* small.wav */,
+				ED119B781C3246DD0010E83B /* meditation_bell.png */,
 			);
 			path = "Mindfulness Bell";
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				TargetAttributes = {
 					ED44B9351C2E74710086A0D5 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 65F95V9U44;
 					};
 					ED44B94C1C2E74710086A0D5 = {
 						CreatedOnToolsVersion = 7.2;
@@ -238,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED119B791C3246DD0010E83B /* meditation_bell.png in Resources */,
 				ED44B96C1C3081920086A0D5 /* large.wav in Resources */,
 				ED44B9471C2E74710086A0D5 /* LaunchScreen.storyboard in Resources */,
 				ED44B9441C2E74710086A0D5 /* Assets.xcassets in Resources */,
@@ -411,10 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Mindfulness Bell/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.brogdon.Mindfulness-Bell";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -422,10 +430,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Mindfulness Bell/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.brogdon.Mindfulness-Bell";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -496,6 +507,7 @@
 				ED44B9631C2E74710086A0D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED44B9641C2E74710086A0D5 /* Build configuration list for PBXNativeTarget "Mindfulness BellTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +516,7 @@
 				ED44B9661C2E74710086A0D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED44B9671C2E74710086A0D5 /* Build configuration list for PBXNativeTarget "Mindfulness BellUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +525,7 @@
 				ED44B9691C2E74710086A0D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

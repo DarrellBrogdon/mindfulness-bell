@@ -23,13 +23,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bbD-9D-YLY">
-                                <rect key="frame" x="119" y="248" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
-                            </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rWz-J5-u82">
-                                <rect key="frame" x="119" y="286" width="99" height="29"/>
+                                <rect key="frame" x="119" y="293" width="99" height="29"/>
                                 <segments>
                                     <segment title="Small"/>
                                     <segment title="Large"/>
@@ -38,37 +33,32 @@
                                     <action selector="setBellType:" destination="BYZ-38-t0r" eventType="valueChanged" id="BlX-Pr-I7W"/>
                                 </connections>
                             </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bell Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIn-dV-Hjx">
+                                <rect key="frame" x="41" y="296" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1fR-6E-7wn">
+                                <rect key="frame" x="119" y="239" width="156" height="46"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="8bC-Xf-vdC" id="5Om-mv-zRf"/>
+                                    <outlet property="delegate" destination="8bC-Xf-vdC" id="c3f-3w-TOp"/>
+                                </connections>
+                            </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fo2-aZ-SdS">
-                                <rect key="frame" x="125" y="322" width="34" height="30"/>
+                                <rect key="frame" x="119" y="329" width="34" height="30"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
                                     <action selector="toggleBell:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hre-Gq-qXW"/>
                                 </connections>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lzK-mW-fFB">
-                                <rect key="frame" x="224" y="249" width="186" height="29"/>
-                                <segments>
-                                    <segment title="Seconds"/>
-                                    <segment title="Minutes"/>
-                                    <segment title="Hours"/>
-                                </segments>
-                                <connections>
-                                    <action selector="setIntervalType:" destination="BYZ-38-t0r" eventType="valueChanged" id="jEc-sc-Gou"/>
-                                </connections>
-                            </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bell Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIn-dV-Hjx">
-                                <rect key="frame" x="41" y="289" width="70" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="bellTypeSegmentedControl" destination="rWz-J5-u82" id="fgp-ot-IBb"/>
-                        <outlet property="intervalTextField" destination="bbD-9D-YLY" id="OnY-wo-w8G"/>
-                        <outlet property="intervalTypeSegmentedControl" destination="lzK-mW-fFB" id="t8S-Fp-Wow"/>
+                        <outlet property="pickerView" destination="1fR-6E-7wn" id="vj0-np-MTB"/>
                         <outlet property="startStopButton" destination="fo2-aZ-SdS" id="A0T-66-BoM"/>
                     </connections>
                 </viewController>
