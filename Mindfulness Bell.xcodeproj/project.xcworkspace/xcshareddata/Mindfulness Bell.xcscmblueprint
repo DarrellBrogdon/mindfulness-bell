@@ -6,11 +6,13 @@
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "011a5403-ee91-4535-b319-3dc0ea092e1a++3392" : 0
+    "011a5403-ee91-4535-b319-3dc0ea092e1a++3392" : 0,
+    "03DE173C27CAC84E46C92F922CB7174655106D50" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E05354ED-23C1-4E2D-883E-925EF54760F0",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "011a5403-ee91-4535-b319-3dc0ea092e1a++3392" : ""
+    "011a5403-ee91-4535-b319-3dc0ea092e1a++3392" : "",
+    "03DE173C27CAC84E46C92F922CB7174655106D50" : "Mindfulness%20Bell\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Mindfulness Bell",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -20,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/svn.monigle.com\/yale",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "011a5403-ee91-4535-b319-3dc0ea092e1a++3392"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:DarrellBrogdon\/mindfulness-bell.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03DE173C27CAC84E46C92F922CB7174655106D50"
     }
   ]
 }

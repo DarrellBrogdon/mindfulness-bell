@@ -74,6 +74,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
     
     func playBell() {
+        print("Ringing bell")
         self.audioPlayer.play()
     }
 
@@ -86,6 +87,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
   
 //        let testImage = UIImage(contentsOfFile: NSBundle.mainBundle().pathForResource("meditation_bell", ofType: "png")!)
 //        bellTypeSegmentedControl.insertSegmentWithImage(testImage, atIndex: 0, animated: true)
+//        bellTypeSegmentedControl.
     }
 
     override func didReceiveMemoryWarning() {

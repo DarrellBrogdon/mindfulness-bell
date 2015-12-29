@@ -206,6 +206,11 @@
 					ED44B9351C2E74710086A0D5 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 65F95V9U44;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					ED44B94C1C2E74710086A0D5 = {
 						CreatedOnToolsVersion = 7.2;
