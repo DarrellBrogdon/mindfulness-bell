@@ -10,6 +10,14 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+    @IBOutlet weak var bellType: BellTypeControl!
+    @IBOutlet weak var pickerView: UIPickerView!
+    @IBOutlet var intervalTextField: UITextField!
+    @IBOutlet var startStopButton: UIButton!
+    
+    let BellTypeSmall = 0
+    let BellTypeLarge = 1
+    
     var pickerDataSource = ["1 Minute", "2 Minutes", "3 Minutes", "4 Minutes", "5 Minutes", "6 Minutes", "7 Minutes",
         "8 Minutes", "9 Minutes", "10 Minutes", "11 Minutes", "12 Minutes", "13 Minutes", "14 Minutes",
         "15 Minutes", "16 Minutes", "17 Minutes", "18 Minutes", "19 Minutes", "20 Minutes", "21 Minutes",
@@ -19,17 +27,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         "43 Minutes", "44 Minutes", "45 Minutes", "46 Minutes", "47 Minutes", "48 Minutes", "49 Minutes",
         "50 Minutes", "51 Minutes", "52 Minutes", "53 Minutes", "54 Minutes", "55 Minutes", "56 Minutes",
         "57 Minutes", "58 Minutes", "59 Minutes", "60 Minutes"]
-    let BellTypeSmall = 0
-    let BellTypeLarge = 1
-    
-    @IBOutlet weak var pickerView: UIPickerView!
-    @IBOutlet var intervalTextField: UITextField!
-    @IBOutlet var bellTypeSegmentedControl: UISegmentedControl!
-    @IBOutlet var startStopButton: UIButton!
     
     var theIntervalType = 1
-    var theBellType = 0
-    
     var theTimer = NSTimer()
     var theInterval: Double = 60.0
     
@@ -37,16 +36,14 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     var smallBellSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("small", ofType: "wav")!)
     var largeBellSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("large", ofType: "wav")!)
     
-    @IBAction func setBellType(sender: UISegmentedControl) {
-        theBellType = sender.selectedSegmentIndex
-    }
-    
     @IBAction func toggleBell(sender: UIButton) {
         if startStopButton.currentTitle! == "Start" {
             startStopButton.setTitle("Stop", forState: .Normal)
             
+            UIApplication.sharedApplication().idleTimerDisabled = true
+            
             do {
-                switch theBellType {
+                switch bellType.theType {
                 case 1:
                     self.audioPlayer = try AVAudioPlayer(contentsOfURL: largeBellSound)
                 default:
@@ -54,7 +51,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
                 }
                 
                 pickerView.userInteractionEnabled = false
-                bellTypeSegmentedControl.enabled = false
+                
+                bellType.toggleEnabled()
                 
                 self.playBell()
                 self.theTimer.invalidate()
@@ -65,8 +63,11 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         } else {
             startStopButton.setTitle("Start", forState: .Normal)
             
+            UIApplication.sharedApplication().idleTimerDisabled = false
+            
             pickerView.userInteractionEnabled = true
-            bellTypeSegmentedControl.enabled = true
+
+            bellType.toggleEnabled()
             
             self.audioPlayer.stop()
             self.theTimer.invalidate()
@@ -84,10 +85,6 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
         self.pickerView.dataSource = self;
         self.pickerView.delegate = self;
-  
-//        let testImage = UIImage(contentsOfFile: NSBundle.mainBundle().pathForResource("meditation_bell", ofType: "png")!)
-//        bellTypeSegmentedControl.insertSegmentWithImage(testImage, atIndex: 0, animated: true)
-//        bellTypeSegmentedControl.
     }
 
     override func didReceiveMemoryWarning() {

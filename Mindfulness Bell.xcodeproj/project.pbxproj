@@ -18,6 +18,7 @@
 		ED44B95D1C2E74710086A0D5 /* Mindfulness_BellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B95C1C2E74710086A0D5 /* Mindfulness_BellUITests.swift */; };
 		ED44B96C1C3081920086A0D5 /* large.wav in Resources */ = {isa = PBXBuildFile; fileRef = ED44B96A1C3081920086A0D5 /* large.wav */; };
 		ED44B96D1C3081920086A0D5 /* small.wav in Resources */ = {isa = PBXBuildFile; fileRef = ED44B96B1C3081920086A0D5 /* small.wav */; };
+		ED465A851C35F67D00912D95 /* BellTypeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED465A841C35F67D00912D95 /* BellTypeControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		ED44B95E1C2E74710086A0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED44B96A1C3081920086A0D5 /* large.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = large.wav; sourceTree = "<group>"; };
 		ED44B96B1C3081920086A0D5 /* small.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = small.wav; sourceTree = "<group>"; };
+		ED465A841C35F67D00912D95 /* BellTypeControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BellTypeControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,16 +107,10 @@
 		ED44B9381C2E74710086A0D5 /* Mindfulness Bell */ = {
 			isa = PBXGroup;
 			children = (
-				ED44B9391C2E74710086A0D5 /* AppDelegate.swift */,
 				ED44B93B1C2E74710086A0D5 /* ViewController.swift */,
+				ED465A841C35F67D00912D95 /* BellTypeControl.swift */,
 				ED44B93D1C2E74710086A0D5 /* Main.storyboard */,
-				ED44B9431C2E74710086A0D5 /* Assets.xcassets */,
-				ED44B9451C2E74710086A0D5 /* LaunchScreen.storyboard */,
-				ED44B9481C2E74710086A0D5 /* Info.plist */,
-				ED44B9401C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodeld */,
-				ED44B96A1C3081920086A0D5 /* large.wav */,
-				ED44B96B1C3081920086A0D5 /* small.wav */,
-				ED119B781C3246DD0010E83B /* meditation_bell.png */,
+				ED465A861C38DFC600912D95 /* Other Files */,
 			);
 			path = "Mindfulness Bell";
 			sourceTree = "<group>";
@@ -135,6 +131,21 @@
 				ED44B95E1C2E74710086A0D5 /* Info.plist */,
 			);
 			path = "Mindfulness BellUITests";
+			sourceTree = "<group>";
+		};
+		ED465A861C38DFC600912D95 /* Other Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED44B9391C2E74710086A0D5 /* AppDelegate.swift */,
+				ED44B9431C2E74710086A0D5 /* Assets.xcassets */,
+				ED44B9481C2E74710086A0D5 /* Info.plist */,
+				ED44B96A1C3081920086A0D5 /* large.wav */,
+				ED44B9451C2E74710086A0D5 /* LaunchScreen.storyboard */,
+				ED119B781C3246DD0010E83B /* meditation_bell.png */,
+				ED44B9401C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodeld */,
+				ED44B96B1C3081920086A0D5 /* small.wav */,
+			);
+			name = "Other Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +290,7 @@
 			files = (
 				ED44B93C1C2E74710086A0D5 /* ViewController.swift in Sources */,
 				ED44B9421C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodeld in Sources */,
+				ED465A851C35F67D00912D95 /* BellTypeControl.swift in Sources */,
 				ED44B93A1C2E74710086A0D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
