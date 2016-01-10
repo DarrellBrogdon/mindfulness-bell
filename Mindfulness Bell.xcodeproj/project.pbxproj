@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED119B791C3246DD0010E83B /* meditation_bell.png in Resources */ = {isa = PBXBuildFile; fileRef = ED119B781C3246DD0010E83B /* meditation_bell.png */; };
+		ED318DCB1C3E1C05007E530C /* BWCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED318DCA1C3E1C05007E530C /* BWCircularSlider.swift */; };
 		ED44B93A1C2E74710086A0D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B9391C2E74710086A0D5 /* AppDelegate.swift */; };
 		ED44B93C1C2E74710086A0D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44B93B1C2E74710086A0D5 /* ViewController.swift */; };
 		ED44B93F1C2E74710086A0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED44B93D1C2E74710086A0D5 /* Main.storyboard */; };
@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ED119B781C3246DD0010E83B /* meditation_bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meditation_bell.png; sourceTree = "<group>"; };
+		ED318DCA1C3E1C05007E530C /* BWCircularSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWCircularSlider.swift; sourceTree = "<group>"; };
 		ED44B9361C2E74710086A0D5 /* Mindfulness Bell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindfulness Bell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED44B9391C2E74710086A0D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED44B93B1C2E74710086A0D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +109,7 @@
 			children = (
 				ED44B93B1C2E74710086A0D5 /* ViewController.swift */,
 				ED465A841C35F67D00912D95 /* BellTypeControl.swift */,
+				ED318DCA1C3E1C05007E530C /* BWCircularSlider.swift */,
 				ED44B93D1C2E74710086A0D5 /* Main.storyboard */,
 				ED465A861C38DFC600912D95 /* Other Files */,
 			);
@@ -141,7 +142,6 @@
 				ED44B9481C2E74710086A0D5 /* Info.plist */,
 				ED44B96A1C3081920086A0D5 /* large.wav */,
 				ED44B9451C2E74710086A0D5 /* LaunchScreen.storyboard */,
-				ED119B781C3246DD0010E83B /* meditation_bell.png */,
 				ED44B9401C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodeld */,
 				ED44B96B1C3081920086A0D5 /* small.wav */,
 			);
@@ -258,7 +258,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED119B791C3246DD0010E83B /* meditation_bell.png in Resources */,
 				ED44B96C1C3081920086A0D5 /* large.wav in Resources */,
 				ED44B9471C2E74710086A0D5 /* LaunchScreen.storyboard in Resources */,
 				ED44B9441C2E74710086A0D5 /* Assets.xcassets in Resources */,
@@ -288,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED318DCB1C3E1C05007E530C /* BWCircularSlider.swift in Sources */,
 				ED44B93C1C2E74710086A0D5 /* ViewController.swift in Sources */,
 				ED44B9421C2E74710086A0D5 /* Mindfulness_Bell.xcdatamodeld in Sources */,
 				ED465A851C35F67D00912D95 /* BellTypeControl.swift in Sources */,

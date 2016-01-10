@@ -85,6 +85,15 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
         self.pickerView.dataSource = self;
         self.pickerView.delegate = self;
+        
+        let slider:BWCircularSlider = BWCircularSlider(startColor: UIColor.redColor(), endColor: UIColor.blueColor(), frame: (self.viewIfLoaded?.bounds)!)
+        slider.addTarget(self, action: "valueChanged:", forControlEvents: UIControlEvents.ValueChanged)
+        
+        self.viewIfLoaded?.addSubview(slider)
+    }
+    
+    func valueChanged(slider:BWCircularSlider) {
+        print("Value changed to \(slider)")
     }
 
     override func didReceiveMemoryWarning() {

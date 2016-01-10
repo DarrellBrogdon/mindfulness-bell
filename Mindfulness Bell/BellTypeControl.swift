@@ -24,8 +24,18 @@ class BellTypeControl: UIView {
         smallButton.tag = 0
         largeButton.tag = 1
         
-        smallButton.backgroundColor = UIColor.redColor()
-        largeButton.backgroundColor = UIColor.greenColor()
+        smallButton.setImage(UIImage(named: "SmallBell"), forState: .Normal)
+        smallButton.setImage(UIImage(named: "SmallBellDisabled"), forState: .Disabled)
+        largeButton.setImage(UIImage(named: "LargeBell"), forState: .Normal)
+        largeButton.setImage(UIImage(named: "LargeBellDisabled"), forState: .Disabled)
+        
+        smallButton.layer.cornerRadius = 4
+        smallButton.layer.borderWidth = 0
+        smallButton.layer.borderColor = UIColor.orangeColor().CGColor
+        
+        largeButton.layer.cornerRadius = 4
+        largeButton.layer.borderWidth = 0
+        largeButton.layer.borderColor = UIColor.orangeColor().CGColor
         
         smallButton.addTarget(self, action: "buttonTapped:", forControlEvents: .TouchDown)
         largeButton.addTarget(self, action: "buttonTapped:", forControlEvents: .TouchDown)
@@ -43,6 +53,11 @@ class BellTypeControl: UIView {
     
     func buttonTapped(button: UIButton) {
         theType = button.tag
+        
+        smallButton.layer.borderWidth = 0
+        largeButton.layer.borderWidth = 0
+        
+        button.layer.borderWidth = 1
         
         print("Tapped the \(theType) button")
     }
