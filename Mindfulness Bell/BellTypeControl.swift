@@ -37,8 +37,8 @@ class BellTypeControl: UIView {
         largeButton.layer.borderWidth = 0
         largeButton.layer.borderColor = UIColor.orangeColor().CGColor
         
-        smallButton.addTarget(self, action: "buttonTapped:", forControlEvents: .TouchDown)
-        largeButton.addTarget(self, action: "buttonTapped:", forControlEvents: .TouchDown)
+        smallButton.addTarget(self, action: #selector(BellTypeControl.buttonTapped(_:)), forControlEvents: .TouchDown)
+        largeButton.addTarget(self, action: #selector(BellTypeControl.buttonTapped(_:)), forControlEvents: .TouchDown)
         
         addSubview(smallButton)
         addSubview(largeButton)

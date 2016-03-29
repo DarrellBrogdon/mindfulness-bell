@@ -56,7 +56,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
                 
                 self.playBell()
                 self.theTimer.invalidate()
-                self.theTimer = NSTimer.scheduledTimerWithTimeInterval(theInterval, target: self, selector: "playBell", userInfo: nil, repeats: true)
+                self.theTimer = NSTimer.scheduledTimerWithTimeInterval(theInterval, target: self, selector: #selector(ViewController.playBell), userInfo: nil, repeats: true)
             } catch {
                 print("Error getting the audio file")
             }
@@ -87,7 +87,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         self.pickerView.delegate = self;
         
         let slider:BWCircularSlider = BWCircularSlider(startColor: UIColor.redColor(), endColor: UIColor.blueColor(), frame: (self.viewIfLoaded?.bounds)!)
-        slider.addTarget(self, action: "valueChanged:", forControlEvents: UIControlEvents.ValueChanged)
+        slider.addTarget(self, action: #selector(ViewController.valueChanged(_:)), forControlEvents: UIControlEvents.ValueChanged)
         
         self.viewIfLoaded?.addSubview(slider)
     }
