@@ -58,7 +58,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
                 
                 self.playBell()
                 self.theTimer.invalidate()
-                self.theTimer = NSTimer.scheduledTimerWithTimeInterval(theInterval, target: self, selector: "playBell", userInfo: nil, repeats: true)
+                self.theTimer = NSTimer.scheduledTimerWithTimeInterval(theInterval, target: self, selector: #selector(ViewController.playBell), userInfo: nil, repeats: true)
             } catch {
                 print("Error getting the audio file")
             }
